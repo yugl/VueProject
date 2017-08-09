@@ -1,0 +1,72 @@
+{
+	"sucess":"1",
+	"userid":"234567",
+	"navdata":[
+		{
+			"title":"首页",
+			"icon": "iconfont icon-mycenter",
+			"content":[{
+				"title": "首页",
+				"url": "/"
+			}]
+		},
+		{
+			"title":"人事管理",
+			"icon": "iconfont icon-kaoqin",
+			"content":[{
+				"title": "我的信息",
+				"url": "/Information"
+			},{
+				"title": "员工信息",
+				"url": "/Employeelist" 
+			},{
+				"title": "爱情管理",
+				"url": "/"
+			}]
+		},
+		{
+			"title":"代码管理",
+			"icon": "iconfont icon-performance",
+			"content":[{
+				"title": "辞职申请",
+				"url": "/"
+			},{
+				"title": "请假申请",
+				"url": "/"
+			}]
+		},
+		{
+			"title":"出行管理",
+			"icon": "iconfont icon-peixun",
+			"content":[{
+				"title": "辞职申请",
+				"url": "/"
+			},{
+				"title": "请假申请",
+				"url": "/"
+			}]
+		},
+		{
+			"title":"出行管理",
+			"icon": "iconfont icon-mycenter",
+			"content":[{
+				"title": "辞职申请",
+				"url": "/"
+			},{
+				"title": "请假申请",
+				"url": "/"
+			}]
+		},
+		{
+			"title":"出行管理",
+			"icon": "iconfont icon-mycenter",
+			"content":[{
+				"title": "辞职申请",
+				"url": "/"
+			},{
+				"title": "请假申请",
+				"url": "/"
+			}]
+		}
+	]
+}
