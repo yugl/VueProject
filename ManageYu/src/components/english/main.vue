@@ -1,0 +1,48 @@
+<template>
+	<div class="y-main">   
+		<div class="y-operate-box">
+			<ul>  
+				<li>
+					<router-link to='/EnglishListChap'>
+						<span class="y-item"><i class="iconfont icon-shouye"></i> 章节列表</span>
+					</router-link>
+				</li>
+				<li>
+					<router-link to='/EnglishAddChap'>
+						<span class="y-item"><i class="iconfont icon-shouye"></i> 添加章节</span>
+					</router-link> 
+				</li>
+				<li>
+					<router-link to='/EnglishAddWords'>
+						<span class="y-item"><i class="iconfont icon-shouye"></i> 添加单词</span>
+					</router-link>  
+				</li>
+			</ul>  
+		</div>  
+		<router-view></router-view>
+	</div>
+</template>
+
+<script>
+export default{
+	data(){
+		return { 
+		}
+	},
+	computed: {
+		url(){ 
+			//"https://bird.ioliu.cn/v1"
+			return this.$store.state.Interface.msglist;
+		}
+	},
+	mounted(){
+		/*this.$http.get( this.url ).then((response) => {  
+			console.info( response )
+			//debugger;
+    	}).catch((err) => { 
+    		//debugger;
+		}); */
+	}
+}
+</script>
+ 

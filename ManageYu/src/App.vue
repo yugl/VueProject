@@ -18,13 +18,7 @@ export default {
 	dd,
 	ul,
 	ol,
-	li,
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
+	li, 
 	p,
 	th,
 	td,
@@ -43,6 +37,9 @@ export default {
 	h5,
 	h6 {
 		font-weight: normal;
+	}
+	h2{
+		font-size: 28px;
 	}
 	body {
 		font: 12px/1.5 "microsoft yahei",arial;

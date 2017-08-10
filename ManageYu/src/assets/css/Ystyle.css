@@ -10,6 +10,7 @@
 	width: 100%;
 	height: 70px;
 	background: linear-gradient(to left, #d1dbda, #bfcecc);
+	z-index: 9999;
 }
 .y-header .y-inner{
 	padding: 0 40px;
@@ -29,10 +30,10 @@
 .y-nav{
 	position: fixed;
     top: 70px;
-    bottom: 0;
+    bottom: 0; 
     box-sizing: border-box;
     width: 240px;
-    padding: 40px 40px 60px 40px;
+    padding: 20px;
     border-right: 1px #e5e5e5 solid;
     overflow: auto;
     font-size: 14px;
@@ -49,13 +50,92 @@
 	background-color: #fbe9f0;
 	font-weight: bold;
 }
-/*==== 内容区 ====*/
-.y-content{ 
-    padding: 70px 0 0 240px;
+.y-nav .el-col{
+	width: 100%;
+	margin-bottom: 10px;
 }
+/*==== 内容区 ====*/ 
 .y-layout-nav .y-nav{
 	width: 100%;
 }
 .y-layout-nav .y-content{
 	display: none;
+}
+.y-layout-nav .y-nav .el-col{
+	width: 25%;
+}
+.y-content{ 
+    padding: 70px 0 0 240px;
+}
+
+/*==== 内容主体部分 ====*/
+.y-main{
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px 240px 20px 50px;
+}
+.y-operate-box{
+	position: absolute;
+	top: 140px;
+	right: 0;
+	width: 200px;
+}
+.y-operate-box a{
+	display: block;
+	font-size: 14px;
+	color: #999;
+}
+.y-operate-box .y-item{
+	display: block;
+	margin-bottom: 5px;
+	padding: 5px; 
+}
+.y-h2-desc{
+	margin-bottom: 20px;
+	font-size: 14px;
+    color: #5e6d82;
+}
+.y-addbox{
+	position: relative;
+	padding: 20px 50px 20px 20px;
+	margin-bottom: 20px;
+    background-color: #f8f8f8;
+} 
+.y-additem{
+	padding: 20px 20px 0 20px;
+	border-bottom: 1px dashed #bfcbd9;
+}
+.y-additem:last-child{
+	border-bottom: none;
+}
+.y-btn-add{
+	position: absolute;
+	padding: 5px 10px; 
+    right: 0;
+    top: 0;
+    z-index: 1; 
+    background-color: #c4e562; 
+    font-weight: bold;
+    color: #5d5d5d;
+    cursor: default;
+}
+.y-additem.el-form--inline .el-form-item__content{
+	margin-left: 0!important;
+}  
+/*==== 重写element ui ====*/
+.el-button:focus, 
+.el-button:hover{
+	color: #b86790;
+    border-color: #b86790;
+}
+.el-button--primary{
+	background-color: #b86790;
+    border-color: #b86790;
+}
+.el-button--primary:focus, 
+.el-button--primary:hover{
+	color: #fff;
+	background: #de87b3;
+    border-color: #de87b3;
 }

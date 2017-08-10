@@ -1,7 +1,7 @@
 <template>
-	<div class="index y-layout-nav"> 
+	<div class="index" :class="miniNavFlag ? '' : 'y-layout-nav'"> 
     <yHeader></yHeader>
-    <yNav></yNav>
+    <yNav @miniNav="miniNav"></yNav>
     <div class="y-content">
 		  <router-view></router-view>
     </div>
@@ -18,9 +18,13 @@ export default {
   },
   data () {
     return { 
+      miniNavFlag: true
     }
   },
   methods:{ 
+    miniNav(){
+      this.miniNavFlag = true;
+    }
   },
   mounted(){ 
   },
