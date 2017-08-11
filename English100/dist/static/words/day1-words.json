@@ -1,0 +1,199 @@
+{
+	"sucess":"1",
+	"data": { 
+		"words": [{
+			"spell": "wrestler",
+			"speak": "resl?(r)",
+			"translate": "摔跤手"
+		},{
+			"spell": "proud",
+			"speak": "pra?d",
+			"translate": "骄傲的"
+		},{
+			"spell": "Greek",
+			"speak": "ɡri:k",
+			"translate": "希腊"
+		},{
+			"spell": "Congratulations",
+			"speak": "k?n,gr?tju'lei??nz",
+			"translate": "祝贺"
+		},{
+			"spell": "weaker",
+			"speak": "wi:k?r",
+			"translate": "更弱的"
+		},{
+			"spell": "opponent",
+			"speak": "?'p??n?nt",
+			"translate": "对手"
+		},{
+			"spell": "deserve",
+			"speak": "d?'z??v",
+			"translate": "应得"
+		},{
+			"spell": "praise",
+			"speak": "pre?z",
+			"translate": "赞美"
+	    },{
+			"spell": "winner",
+			"speak": "'w?n?",
+			"translate": "胜者"
+	    },{
+			"spell": "competition",
+			"speak": "k?mp?'t??(?)n",
+			"translate": "比赛"       
+	    },{
+			"spell": "impressed",
+			"speak": "?m'prest",
+			"translate": "印象深刻的"
+	    },{
+			"spell": "slave",
+			"speak": "sle?v",
+			"translate": "奴隶"
+	    },{
+			"spell": "escaped",
+			"speak": "?'ske?pt",
+			"translate": "逃脱"
+	    },{
+			"spell": "master",
+			"speak": "'mɑ?st?",
+			"translate": "主人"
+	    },{
+			"spell": "lion",
+			"speak": "'la??n",
+			"translate": "狮子"
+	    },{
+			"spell": "chase",
+			"speak": "t?e?s",
+			"translate": "追捕"
+	    },{
+			"spell": "paw",
+			"speak": "p??",
+			"translate": "爪子"
+	    },{
+			"spell": "swollen",
+			"speak": "'sw??l?n",
+			"translate": "肿胀"
+	    },{
+			"spell": "thorn",
+			"speak": "θ??n",
+			"translate": "棘刺"
+	    },{
+			"spell": "pulled",
+			"speak": "'p?ld",
+			"translate": "拔出"
+	    },{
+			"spell": "wrapped",
+			"speak": "r?pt",
+			"translate": "包扎"
+	    },{
+			"spell": "lick",
+			"speak": "l?k",
+			"translate": "舔"
+	    },{
+			"spell": "cave",
+			"speak": "ke?v",
+			"translate": "洞穴"
+	    },{
+			"spell": "meat",
+			"speak": "mi?t",
+			"translate": "肉"
+	    },{
+			"spell": "caught",
+			"speak": "k??t",
+			"translate": "被抓"
+	    },{
+			"spell": "Emperor",
+			"speak": "'emp(?)r?",
+			"translate": "皇帝"
+	    },{
+			"spell": "loose",
+			"speak": "lu?s",
+			"translate": "释放"
+	    },{
+			"spell": "arena",
+			"speak": "arena",
+			"translate": "竞技场"
+
+	    },{
+			"spell": "rushed",
+			"speak": "r??t",
+			"translate": "冲，奔向"
+	    },{
+			"spell": "recognized",
+			"speak": "'rek?g'na?zd",
+			"translate": "认出"
+	    },{
+			"spell": "roaring",
+			"speak": "'r??r??",
+			"translate": "咆哮"
+	    },{
+			"spell": "victim",
+			"speak": "'v?kt?m",
+			"translate": "受害者"
+	    },{
+			"spell": "surprised",
+			"speak": "s?'praizd",
+			"translate": "吃惊"
+	    },{
+			"spell": "behaved",
+			"speak": "behaved",
+			"translate": "表现"
+	    },{
+			"spell": "rewarded",
+			"speak": " ",
+			"translate": "被奖励"
+	    },{
+			"spell": "Bravery",
+			"speak": "'bre?v(?)r?",
+			"translate": "勇气"
+	    },{
+			"spell": "Ant",
+			"speak": "?nt",
+			"translate": "蚂蚁"
+	    },{
+			"spell": "Caterpillar",
+			"speak": "'k?t?p?l?",
+			"translate": "毛虫"
+	    },{
+			"spell": "wrapped",
+			"speak": "r?pt",
+			"translate": "包裹"
+	    },{
+			"spell": "shell",
+			"speak": "?el",
+			"translate": "外壳"
+	    },{
+			"spell": "alive",
+			"speak": "?'la?v",
+			"translate": "活着的"
+	    },{
+			"spell": "tail",
+			"speak": "te?l",
+			"translate": "尾巴"
+	    },{
+			"spell": "climb",
+			"speak": "kla?m",
+			"translate": "爬"
+	    },{
+			"spell": "reply",
+			"speak": "r?'pla?",
+			"translate": "回应"
+	    },{
+			"spell": "shade",
+			"speak": "?e?d",
+			"translate": "阴影"
+	    },{
+			"spell": "wings",
+			"speak": "wi?z",
+			"translate": "翅膀"
+	    },{
+			"spell": "butterfly",
+			"speak": "'b?t?fla?",
+			"translate": "蝴蝶"
+	    },{
+			"spell": "judge",
+			"speak": "d??d?",
+			"translate": "评价" 
+		}] 
+	}
+}

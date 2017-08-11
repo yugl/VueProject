@@ -1,0 +1,65 @@
+{
+	"sucess":"1",
+	"data": {
+		"previous": "兔子跑到前头睡大觉，被乌龟慢慢追上也不知道； 熟透的紫葡萄挂老高，狐狸吃不着却还心高气傲！ 海绵不像盐巴沾水化，毛驴自作聪明被累成大傻； 喊着狼来了的放羊娃，这一次还会有人被他骗吗？",
+		"stories": [{
+			"title": "Aesop and the Wrestler(摔跤手)",
+			"moral": "Don’t be proud(骄傲的) of your natural abilities, be proud(骄傲的) of what you do with them.",
+			"content": [
+				"Aesop was talking to the winner(胜者) of a Greek(希腊) wrestling competition(比赛).",
+				"<i>99</i>“Congratulations(祝贺) on your win(胜利)!” he said.",
+				"“Tell me, were you smaller and weaker(更弱的) than your opponent(对手)?”",
+				"“What do you mean?” said the wrestler(摔跤手), angrily.",
+				"“I am the biggest and strongest wrestler(摔跤手) in the whole of Greece(希腊)!”",
+				"“In that case, I don’t think you deserve(应得) much praise(赞美) after all,” said Aesop.",
+				"“It is easy to win(赢) when you are bigger and stronger.",
+				"If your opponent(对手) had been bigger and stronger than you,",
+				"and you had still won(赢), then I would really have been impressed(印象深刻的).”" 
+			] 
+		},{
+			"title": "Androcles and the Lion(狮子)",
+			"moral": "Bravery(勇气) in taking care of others is often well rewarded(被奖励).",
+			"content": [
+				"A slave(奴隶) named Androcles once escaped(逃脱) from his master(主人) and ran away to the forest.",
+				"As he was walking about there, he saw a lion(狮子) lying down, crying in pain.",
+				"At first he turned to run, but finding that the lion(狮子) did not chase(追捕) him,",
+				"he turned back and went up to him.",
+				"As he came near, the lion(狮子) put out his paw(爪子), which was all swollen(肿胀) and bleeding.",
+				"Androcles saw that a huge thorn(棘刺) had got into it, and was causing all the pain.",
+				"He pulled(拔出) out the thorn(棘刺) and wrapped(包扎) up the paw(爪子) of the lion(狮子),",
+				"who was soon able to rise and lick(舔) the hand of Androcles like a dog.",
+				"Then the lion(狮子) took Androcles to his cave(洞穴), and brought him meat(肉) to eat every day.",
+				"A little while afterwards both Androcles and the lion(狮子) were caught(被抓),",
+				"and the slave(奴隶) was sentenced(被判处) to be thrown(被扔) to the lion(狮子),",
+				"after the lion(狮子) had been kept without food for several days.",
+				"The Emperor(皇帝) and all his Court came to see the show,", 
+				"and Androcles was led out into the middle of the arena(竞技场).",
+				"Soon the lion(狮子) was let loose(释放), and rushed(冲，奔向) jumping and roaring(咆哮) towards his victim(受害者).",
+				"But as soon as he came near to Androcles he recognized(认出) his friend,",
+				"came gently up to him, and licked(舔) his hands like a friendly dog.",
+				"The Emperor(皇帝), surprised(吃惊) at this, asked Androcles if he knew why the lion(狮子) behaved(表现) this way,",
+				"and Androcles told him the whole story.",
+				"Then the slave(奴隶) Androcles was freed, and the lion(狮子) was also set free again in the forest." 
+			] 
+		},{
+			"title": "The Ant(蚂蚁) and the Caterpillar(毛虫)",
+			"moral": "Do not judge(评价) by appearances.",
+			"content": [
+				"An ant(蚂蚁) running about in the sunshine looking for food met a caterpillar(毛虫) that was almost at its time of change,",
+				"and had already wrapped(包裹) a hard shell(外壳) about itself.",
+				"The ant(蚂蚁) only noticed that the caterpillar(毛虫) was even alive(活着的) because of a tiny movement of its tail(尾巴).",
+				"“Oh, what an unhappy animal you are!” said the ant(蚂蚁).",
+				"“I can climb(爬) up to the top of the tallest tree, but you can hardly even move!”",
+				"The caterpillar(毛虫) heard all this, but did not reply(回应).",
+				"A few days later, when the ant(蚂蚁) passed by again, only the shell(外壳) was left.",
+				"As he wondered what had happened, he felt himself in the shade(阴影).",
+				"He looked up and felt himself fanned by the wings(翅膀) of a beautiful butterfly(蝴蝶).",
+				"“Look at me now,” said the butterfly(蝴蝶),",
+				"“the one you felt so sorry for!",
+				"Tell me now what a good runner and climber you are—if you can keep up with me!”",
+				"Then the butterfly(蝴蝶) flew up into the air, carried high and far on the summer winds,",
+				"and was never seen by the ant(蚂蚁) again." 
+			] 
+		}]
+	}
+}
