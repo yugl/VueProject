@@ -22,6 +22,7 @@
 </template>
 
 <script>
+import { ajaxData } from '@/assets/js/ajaxdata.js';
 export default{
 	data(){
 		return { 
@@ -30,7 +31,9 @@ export default{
 	methods: { 
 	},
 	mounted(){
-		 
+		ajaxData( this.$store.state.Interface.msglist , ( res ) => {   
+	 		alert( '接口请求' + this.$store.state.Interface.msglist + res.msg ); 
+    	}); 
 	}
 }
 </script>

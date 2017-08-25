@@ -1,7 +1,15 @@
-export const ValidForm = { 
+export const validForm = { 
+	//手机号
+	phone: (rule, value, callback) => {   
+        if( !validForm.pattresult["phone"].test(value) ){
+            callback(new Error('请输入有效的手机号码'));
+        }else{
+            callback();
+        };
+    },
     //邮箱
     email: (rule, value, callback) => {   
-        if( !ValidForm.pattresult["email"].test(value) ){
+        if( !validForm.pattresult["email"].test(value) ){
             callback(new Error('请输入正确的邮箱'));
         }else{
             callback();
@@ -9,7 +17,7 @@ export const ValidForm = {
     },
     //汉字
     chinese: (rule, value, callback) => {   
-        if( !ValidForm.pattresult["chinese"].test(value) ){
+        if( !validForm.pattresult["chinese"].test(value) ){
             callback(new Error('只能输入汉字'));
         }else{
             callback();
@@ -17,6 +25,7 @@ export const ValidForm = {
     }, 
     pattresult: {
         "email": /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/,
-        "chinese": /^[\u4e00-\u9fa5]{0,}$/ 
-    } 
+        "chinese": /^[\u4e00-\u9fa5]{0,}$/,
+        "phone": /^1[34578]\d{9}$/
+    }
 };
