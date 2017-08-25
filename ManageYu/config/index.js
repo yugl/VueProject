@@ -28,14 +28,10 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-    	'/servlet/**': {
-          target: "http://115.159.153.187:9680", 
-          secure: false,
-      },
-      '/ifbp-oa-user/**': {
-        target: "http://10.4.102.37:28080/",
-        secure: false,
-      },
+    	'/v1/': {
+        target: 'http://115.159.153.187:9680', //jmf  
+        changeOrigin:true 
+      } 
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README

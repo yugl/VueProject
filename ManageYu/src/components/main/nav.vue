@@ -6,7 +6,11 @@
           <div @click="miniNav" class="y-nav-item active">英语100天</div>
         </router-link>
       </el-col>
-      <el-col><div @click="miniNav" class="y-nav-item">待定</div></el-col>
+      <el-col>
+        <router-link to='/FormMain'>
+          <div @click="miniNav" class="y-nav-item">自动化表单</div>
+        </router-link>
+      </el-col>
       <el-col><div @click="miniNav" class="y-nav-item">待定</div></el-col>
       <el-col><div @click="miniNav" class="y-nav-item">待定</div></el-col>
     </el-row>

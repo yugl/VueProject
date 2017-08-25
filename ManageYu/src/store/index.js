@@ -8,7 +8,7 @@ export default new Vuex.Store({
     state: {
     	//数据接口   获取方法：[this.$store.state.Interface.msglist]
     	Interface: {
-    		'msglist': 'http://115.159.153.187:9680/v1/meal/contentInfos'  		
+    		'msglist': '/v1/meal/contentInfos'  		
     	}
     } 
 });

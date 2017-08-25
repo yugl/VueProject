@@ -1,5 +1,5 @@
 <template>
-	<div class="y-main">   
+	<div class="y-main">    
 		<div class="y-operate-box">
 			<ul>  
 				<li>
@@ -28,20 +28,15 @@ export default{
 	data(){
 		return { 
 		}
-	},
-	computed: {
-		url(){ 
-			//"https://bird.ioliu.cn/v1"
-			return this.$store.state.Interface.msglist;
-		}
-	},
+	}, 
 	mounted(){
-		/*this.$http.get( this.url ).then((response) => {  
+		/*var _url = this.$store.state.Interface.msglist;
+		this.$http.get( _url ).then((response) => {  
 			console.info( response )
-			//debugger;
+			debugger;
     	}).catch((err) => { 
-    		//debugger;
-		}); */
+    		debugger;
+		});  */
 	}
 }
 </script>

@@ -123,6 +123,12 @@
 .y-additem.el-form--inline .el-form-item__content{
 	margin-left: 0!important;
 }  
+.y-item-inline-block{
+	width: 100%;
+}
+.y-item-inline-block .el-form-item__content{
+	width: calc(100% - 80px);
+}
 /*==== 重写element ui ====*/
 .el-button:focus, 
 .el-button:hover{

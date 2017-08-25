@@ -4,7 +4,7 @@
 		<p class="y-h2-desc">所有字段都需要输入</p>
 		<el-form ref="form" label-position="left" :model="form" label-width="80px"> 
 			<el-form-item label="选择章节">
-		    	<el-input v-model="form.previous" type="textarea" autosize placeholder="请选择章节"></el-input>
+		    	<el-input v-model="form.chap" type="textarea" autosize placeholder="请选择章节"></el-input>
 		  	</el-form-item> 
 		  	<div class="y-addbox">
 		  		<span class="y-btn-add" @click="addStory">添加words</span> 
@@ -33,7 +33,7 @@ export default{
 	data(){
 		return { 
 			form: {
-				previous: '' 
+				chap: '' 
 			}, 
 			words: [] 
 		}
@@ -41,8 +41,7 @@ export default{
 	methods: {
 		onSubmit(){ 
 			this.form.words = this.words;
-			console.info( this.form );
-			debugger;
+			alert( JSON.stringify([ this.form ]) );  
 		},
 		addStory(){
 			var _obj = {

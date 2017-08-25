@@ -41,8 +41,7 @@ export default{
 	methods: {
 		onSubmit(){ 
 			this.form.stories = this.stories;
-			console.info( this.form );
-			debugger;
+			alert( JSON.stringify([ this.form ]) ); 
 		},
 		addStory(){
 			var _obj = {
