@@ -1,7 +1,7 @@
 <template>
 	<div class="y-nav">
 		<router-link class="y-nav-link" v-for="(item, index) in navdata" :to='"/Content/"+ ( index + 1 )'>
-			<span @click="visited(index)" class="y-nav-item" :class="index == 0 ? 'y-visited' : ''"><span style="font-size: 10px;">D</span><span>{{item}}</span></span>
+			<span @click="visited(index)" class="y-nav-item" :class="index == 0 ? 'y-visited' : ''"><span class="y-nav-word">D</span><span>{{item}}</span></span>
 		</router-link> 
 	</div> 
 </template>

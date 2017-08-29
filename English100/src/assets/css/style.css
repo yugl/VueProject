@@ -1,6 +1,9 @@
 body,html{
 	margin: 0;
 	padding: 0;
+} 
+body{
+	font-size: 1.4rem;
 }
 a:link{
 	text-decoration: none;  
@@ -15,7 +18,7 @@ a:link{
 	display: inline-block;
 	padding: 2px 3px;
 	color: #333;
-	font-size: 13px;
+	font-size: 1.4rem;
 }
 .y-nav-link:link .y-nav-item{
 	display: block;
@@ -54,7 +57,7 @@ a:link{
 .y-content .y-quote{
 	border-left: 3px solid #a2b332;
     padding-left: 20px;
-    font-size: 14px 
+    font-size: 1.4rem 
 } 
 .y-quote h4{
 	display: inline-block; 
@@ -92,7 +95,7 @@ a:link{
 	position: relative; 
 	background-color: #fff;
 	box-shadow: 0 3px 9px 1px #777;
-	font-size: 12px;
+	font-size: 1.2rem;
 	height: 100%;
 }
 .y-words-btn{
@@ -104,7 +107,7 @@ a:link{
     text-align: center;
     background-color: #b86790;
     color: #fff; 
-    font-size: 14px;
+    font-size: 1.4rem;
     cursor: pointer;
 }
 .y-arrow{
@@ -124,7 +127,7 @@ a:link{
 .y-text-index{
 	font-weight: bold;
 	color: #b86790;
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 .y-text-spell{
 	font-weight: bold; 
@@ -136,7 +139,7 @@ a:link{
 .y-text-level{
 	color: #ff0081;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1.6rem;
 }
 .y-text-translate,
 .y-input-box{
@@ -162,4 +165,4 @@ a:link{
 @keyframes hidewords { 
 	from { width:300px;}
 	to { width:0;}
-} 
+}  

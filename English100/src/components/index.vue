@@ -1,9 +1,9 @@
 <template>
 	<el-row>
-		<el-col :xs="8" :sm="6" :md="4"> 
+		<el-col :xs="24" :sm="6" :md="4"> 
 			<Ynav></Ynav>
 		</el-col>
-		<el-col :xs="16" :sm="18" :md="20">
+		<el-col :xs="24" :sm="18" :md="20">
 			<router-view></router-view>
 		</el-col> 
 	</el-row>

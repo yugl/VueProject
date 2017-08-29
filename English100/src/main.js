@@ -13,6 +13,16 @@ Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 
+function isPc(){
+	//移动端
+	if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i) ){
+	  document.getElementsByTagName("html")[0].style.fontSize = "12px";
+	}else{ 
+		//pc端
+	  document.getElementsByTagName("html")[0].style.fontSize = "10px";          
+	};
+};
+isPc();
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
