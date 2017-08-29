@@ -4,17 +4,17 @@
 			<ul>  
 				<li>
 					<router-link to='/EnglishListChap'>
-						<span class="y-item"><i class="iconfont icon-shouye"></i> 章节列表</span>
+						<span class="y-item"><i class="iconfont icon-liebiao"></i> 章节列表</span>
 					</router-link>
 				</li>
 				<li>
 					<router-link to='/EnglishAddChap'>
-						<span class="y-item"><i class="iconfont icon-shouye"></i> 添加章节</span>
+						<span class="y-item"><i class="iconfont icon-zhangjielianxi"></i> 添加章节</span>
 					</router-link> 
 				</li>
 				<li>
 					<router-link to='/EnglishAddWords'>
-						<span class="y-item"><i class="iconfont icon-shouye"></i> 添加单词</span>
+						<span class="y-item"><i class="iconfont icon-danciben"></i> 添加单词</span>
 					</router-link>  
 				</li>
 			</ul>  

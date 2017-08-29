@@ -27,7 +27,7 @@ export default new Router({
 		    name: '/EnglishMain',
 		    component: EnglishMain,
         children: [{ 
-          path: "/",
+          path: "/EnglishListChap",
           name: '/EnglishListChap',
           component: EnglishListChap  
         },{ 

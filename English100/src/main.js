@@ -6,6 +6,7 @@ import 'element-ui/lib/theme-default/index.css'
 import App from './App'
 import router from './router' 
 import axios from 'axios';
+import './assets/css/iconfont.css';
 import './assets/css/style.css';
 Vue.prototype.$http = axios;
 

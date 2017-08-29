@@ -49,7 +49,7 @@ export default{
 				moral: '',
 				content: ''
 			};
-			this.stories.push( _obj );
+			this.stories.unshift( _obj );
 		}
 	},
 	mounted(){

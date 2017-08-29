@@ -49,7 +49,7 @@ export default{
 				speak: '',
 				translate: ''
 			};
-			this.words.push( _obj );
+			this.words.unshift( _obj );
 		}
 	},
 	mounted(){
