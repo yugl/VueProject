@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>本地vue测试</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	</head>
+
+	<body>
+		<div id="app"> 
+			<router-link :to="{name:'/a'}">demoa</router-link>
+			<router-link :to="{name:'/b'}">demob</router-link>
+			<router-view></router-view>  
+		</div>
+		<!--vue框架-->
+		<script src="js/vue/vue.js"></script>
+		<script src="js/vue/vue-router.js"></script> 
+		<script type="text/javascript" src="index.js" ></script>
+	</body>
+
+</html>

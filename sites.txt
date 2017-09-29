@@ -1,4 +1,5 @@
-https://yugl.github.io/VueProject/
+/*==== distVue 不用vue-cli实现vue的路由跟组件式开发====*/
+https://yugl.github.io/VueProject/distVue/index.html
 
 /*==== ManageYu ====*/
 https://yugl.github.io/VueProject/ManageYu/dist/index.html
